@@ -1,0 +1,18 @@
+[project]
+name = "interviewer-scheduler"
+version = "0.1.0"
+description = "AI Agent for proposing interview slots and handling scheduling logic"
+authors = [
+    { name = "Kaustubh", email = "kaustubh@example.com" }
+]
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "pydantic>=2.6.0",
+    "openai>=1.12.0",
+    "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

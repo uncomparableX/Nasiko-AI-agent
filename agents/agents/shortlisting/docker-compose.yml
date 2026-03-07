@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  shortlisting:
+    build: .
+    container_name: shortlisting
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}

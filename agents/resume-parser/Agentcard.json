@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "protocolVersion": "0.2.9",
+  "name": "resume-parser",
+  "description": "An intelligent agent that parses resumes from PDF files and extracts structured candidate information like skills, experience, and education.",
+  "capabilities": {
+    "supportedProtocols": [
+      "JSONRPC"
+    ],
+    "supportedTransports": [
+      "HTTP"
+    ]
+  },
+  "preferredTransport": "JSONRPC",
+  "provider": {
+    "organization": "Nasiko AI Projects",
+    "contact": "support@nasiko.ai"
+  },
+  "defaultInputModes": [
+    "application/pdf",
+    "multipart/form-data"
+  ],
+  "defaultOutputModes": [
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "parse-resume",
+      "name": "Parse Resume",
+      "description": "Extract structured data from a resume PDF file",
+      "tags": [
+        "resume",
+        "parser",
+        "recruitment",
+        "extraction"
+      ],
+      "inputModes": [
+        "multipart/form-data"
+      ],
+      "outputModes": [
+        "application/json"
+      ]
+    }
+  ]
+}

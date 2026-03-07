@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  resume-parser:
+    build: .
+    container_name: resume-parser
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}

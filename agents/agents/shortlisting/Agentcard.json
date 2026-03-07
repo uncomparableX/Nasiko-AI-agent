@@ -1,0 +1,43 @@
+{
+    "version": "1.0.0",
+    "protocolVersion": "0.2.9",
+    "name": "shortlisting",
+    "description": "An agent that analyzes a list of scored candidates and provide a final recommendation for shortlisting.",
+    "capabilities": {
+        "supportedProtocols": [
+            "JSONRPC"
+        ],
+        "supportedTransports": [
+            "HTTP"
+        ]
+    },
+    "preferredTransport": "JSONRPC",
+    "provider": {
+        "organization": "Nasiko AI Projects",
+        "contact": "support@nasiko.ai"
+    },
+    "defaultInputModes": [
+        "application/json"
+    ],
+    "defaultOutputModes": [
+        "application/json"
+    ],
+    "skills": [
+        {
+            "id": "shortlist-candidates",
+            "name": "Shortlist Candidates",
+            "description": "Analyze a list of scored candidates and provide recommendations",
+            "tags": [
+                "shortlisting",
+                "recruitment",
+                "recommendation"
+            ],
+            "inputModes": [
+                "application/json"
+            ],
+            "outputModes": [
+                "application/json"
+            ]
+        }
+    ]
+}

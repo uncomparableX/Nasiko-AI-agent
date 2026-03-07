@@ -1,0 +1,43 @@
+{
+    "version": "1.0.0",
+    "protocolVersion": "0.2.9",
+    "name": "candidate-scoring",
+    "description": "An agent that evaluates a candidate's profile against a Job Description and provides a score and justification.",
+    "capabilities": {
+        "supportedProtocols": [
+            "JSONRPC"
+        ],
+        "supportedTransports": [
+            "HTTP"
+        ]
+    },
+    "preferredTransport": "JSONRPC",
+    "provider": {
+        "organization": "Nasiko AI Projects",
+        "contact": "support@nasiko.ai"
+    },
+    "defaultInputModes": [
+        "application/json"
+    ],
+    "defaultOutputModes": [
+        "application/json"
+    ],
+    "skills": [
+        {
+            "id": "score-candidate",
+            "name": "Score Candidate",
+            "description": "Evaluate a candidate's profile against a Job Description",
+            "tags": [
+                "scoring",
+                "recruitment",
+                "evaluation"
+            ],
+            "inputModes": [
+                "application/json"
+            ],
+            "outputModes": [
+                "application/json"
+            ]
+        }
+    ]
+}

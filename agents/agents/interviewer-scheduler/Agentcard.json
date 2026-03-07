@@ -1,0 +1,43 @@
+{
+    "version": "1.0.0",
+    "protocolVersion": "0.2.9",
+    "name": "interviewer-scheduler",
+    "description": "An agent that proposes interview slots or handle scheduling logic.",
+    "capabilities": {
+        "supportedProtocols": [
+            "JSONRPC"
+        ],
+        "supportedTransports": [
+            "HTTP"
+        ]
+    },
+    "preferredTransport": "JSONRPC",
+    "provider": {
+        "organization": "Nasiko AI Projects",
+        "contact": "support@nasiko.ai"
+    },
+    "defaultInputModes": [
+        "application/json"
+    ],
+    "defaultOutputModes": [
+        "application/json"
+    ],
+    "skills": [
+        {
+            "id": "schedule-interviews",
+            "name": "Schedule Interviews",
+            "description": "Propose interview slots and draft emails",
+            "tags": [
+                "scheduling",
+                "recruitment",
+                "interview"
+            ],
+            "inputModes": [
+                "application/json"
+            ],
+            "outputModes": [
+                "application/json"
+            ]
+        }
+    ]
+}
