@@ -723,5 +723,5 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ---
 
 <div align="center">
-<strong>Built with ❤️ for the AI agent community</strong>
+<strong>Built with ❤️ by team Mauryan Minds</strong>
 </div>
